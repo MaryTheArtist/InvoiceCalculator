@@ -5,30 +5,48 @@ namespace InvoiceCalculator
 {
     class InvoiceCalculator
     {
+        const double NotInclMinsToA1Fee = 0.03;
+        const double NotInclMinsToTelenorOrVivacomFee = 0.09;
+        const double MinsInRoumingFee = 0.15;
+        const double NotInclMbInCountryFee = 0.02;
+        const double NotInclMbInEUFee = 0.05;
+        const double NotInclMbOutEUFee = 0.2;
+
         static void Main(string[] args)
         {
             Console.Write("Monthly fee: ");
             double monthFee = double.Parse(Console.ReadLine());
+
             Console.Write("SMSs: ");
             int sms = int.Parse(Console.ReadLine());
+
             Console.Write("MMCs: ");
             int mmc = int.Parse(Console.ReadLine());
+
             Console.Write("Not included minutes to A1: ");
             int notInclMinsToA1 = int.Parse(Console.ReadLine());
+
             Console.Write("Not included minutes to Telenor: ");
             int notInclMinsToTelenor = int.Parse(Console.ReadLine());
+
             Console.Write("Not included minutes to Vivacom: ");
             int notInclMinsToVivacom = int.Parse(Console.ReadLine());
+
             Console.Write("Minutes in rouming: ");
             int minsInRoaming = int.Parse(Console.ReadLine());
+
             Console.Write("Not included minutes in country: ");
             int notInclMbInCountry = int.Parse(Console.ReadLine());
+
             Console.Write("Not included minutes in EU: ");
             int notInclMbInEU = int.Parse(Console.ReadLine());
+
             Console.Write("Not included minutes outside EU: ");
             int notInclMbOutEU = int.Parse(Console.ReadLine());
+
             Console.Write("Other fees: ");
             double otherFees = double.Parse(Console.ReadLine());
+
             Console.Write("Discounts: ");
             double discounts = double.Parse(Console.ReadLine());
 
@@ -63,20 +81,18 @@ namespace InvoiceCalculator
                                                   double otherFees,
                                                   double discounts)
         {
-
             double smsSum = CalculateSmsSum(sms);
             double mmcSum = CalculateMmcSum(mmc);
 
             double totalSum = monthFee 
                             + smsSum 
                             + mmcSum 
-                            + notInclMinsToA1 * 0.03 
-                            + notInclMinsToTelenor * 0.09 
-                            + notInclMinsToVivacom * 0.09 
-                            + minsInRoaming * 0.15 
-                            + notInclMbInCountry * 0.02 
-                            + notInclMbInEU * 0.05 
-                            + notInclMbOutEU * 0.2 
+                            + notInclMinsToA1 * NotInclMinsToA1Fee
+                            + (notInclMinsToTelenor + notInclMinsToVivacom) * NotInclMinsToTelenorOrVivacomFee
+                            + minsInRoaming * MinsInRoumingFee
+                            + notInclMbInCountry * NotInclMbInCountryFee
+                            + notInclMbInEU * NotInclMbInEUFee
+                            + notInclMbOutEU * NotInclMbOutEUFee
                             + otherFees 
                             - discounts;
 
