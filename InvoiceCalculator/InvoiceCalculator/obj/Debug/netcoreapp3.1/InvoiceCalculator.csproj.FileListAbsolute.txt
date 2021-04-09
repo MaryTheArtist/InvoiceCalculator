@@ -1,0 +1,13 @@
+C:\Users\Valkovi\source\repos\InvoiceCalculator\InvoiceCalculator\bin\Debug\netcoreapp3.1\InvoiceCalculator.exe
+C:\Users\Valkovi\source\repos\InvoiceCalculator\InvoiceCalculator\bin\Debug\netcoreapp3.1\InvoiceCalculator.deps.json
+C:\Users\Valkovi\source\repos\InvoiceCalculator\InvoiceCalculator\bin\Debug\netcoreapp3.1\InvoiceCalculator.runtimeconfig.json
+C:\Users\Valkovi\source\repos\InvoiceCalculator\InvoiceCalculator\bin\Debug\netcoreapp3.1\InvoiceCalculator.runtimeconfig.dev.json
+C:\Users\Valkovi\source\repos\InvoiceCalculator\InvoiceCalculator\bin\Debug\netcoreapp3.1\InvoiceCalculator.dll
+C:\Users\Valkovi\source\repos\InvoiceCalculator\InvoiceCalculator\bin\Debug\netcoreapp3.1\InvoiceCalculator.pdb
+C:\Users\Valkovi\source\repos\InvoiceCalculator\InvoiceCalculator\obj\Debug\netcoreapp3.1\InvoiceCalculator.csprojAssemblyReference.cache
+C:\Users\Valkovi\source\repos\InvoiceCalculator\InvoiceCalculator\obj\Debug\netcoreapp3.1\InvoiceCalculator.csproj.CoreCompileInputs.cache
+C:\Users\Valkovi\source\repos\InvoiceCalculator\InvoiceCalculator\obj\Debug\netcoreapp3.1\InvoiceCalculator.AssemblyInfoInputs.cache
+C:\Users\Valkovi\source\repos\InvoiceCalculator\InvoiceCalculator\obj\Debug\netcoreapp3.1\InvoiceCalculator.AssemblyInfo.cs
+C:\Users\Valkovi\source\repos\InvoiceCalculator\InvoiceCalculator\obj\Debug\netcoreapp3.1\InvoiceCalculator.dll
+C:\Users\Valkovi\source\repos\InvoiceCalculator\InvoiceCalculator\obj\Debug\netcoreapp3.1\InvoiceCalculator.pdb
+C:\Users\Valkovi\source\repos\InvoiceCalculator\InvoiceCalculator\obj\Debug\netcoreapp3.1\InvoiceCalculator.genruntimeconfig.cache
